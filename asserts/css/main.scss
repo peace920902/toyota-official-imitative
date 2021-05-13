@@ -56,7 +56,7 @@ span {
 }
 
 @mixin link($jc, $fd, $right, $ml) {
-  width: 960px;
+  width: 735px;
   display: flex;
   flex-direction: $fd;
   align-items: center;
@@ -101,12 +101,14 @@ span {
       height: 140px;
       display: flex;
       align-items: center;
+      justify-content: flex-start;
       flex-direction: $fd;
       font-size: 42px;
       background-color: rgb(187, 4, 4);
       span {
         display: inline-block;
-        font-size: 140px;
+        height: 120px;
+        font-size: 120px;
         transform: rotate(90deg);
       }
     }

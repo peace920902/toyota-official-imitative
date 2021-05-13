@@ -201,6 +201,9 @@ span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -211,7 +214,8 @@ span {
 
 #advantage .item:nth-child(odd) > .title h3 span {
   display: inline-block;
-  font-size: 140px;
+  height: 120px;
+  font-size: 120px;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
@@ -248,7 +252,7 @@ span {
 }
 
 #advantage .item:nth-child(odd) .link {
-  width: 960px;
+  width: 735px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -372,6 +376,9 @@ span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -382,7 +389,8 @@ span {
 
 #advantage .item:nth-child(even) > .title h3 span {
   display: inline-block;
-  font-size: 140px;
+  height: 120px;
+  font-size: 120px;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
@@ -419,7 +427,7 @@ span {
 }
 
 #advantage .item:nth-child(even) .link {
-  width: 960px;
+  width: 735px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
